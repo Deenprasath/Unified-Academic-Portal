@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-red-100; /* soft, light red background */
+  }
+}
+
+/* Custom soft red class */
+.lavender-100 {
+  background-color: #9a000a; /* pastel red shade */
+}
